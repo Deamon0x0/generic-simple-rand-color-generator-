@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#box {
+    width: 600px;
+    height: 200px;
+    /* background-color: rgb(255, 255, 255); */
+    position: absolute;
+    top: 300px;
+}
+
+#switch {
+    font-size: 32px;
+    padding: 16px;
+}
